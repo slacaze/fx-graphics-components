@@ -23,7 +23,7 @@ classdef WithTableData < fx.graphics.Component
                 {'table', 'timetable'}, {} );
             this.HgObject.Data = table2cell( value );
             this.HgObject.ColumnName = value.Properties.VariableNames;
-            this.HgObject.RowName = value.Properties.VariableNames;
+            this.HgObject.RowName = value.Properties.RowNames;
         end
         
     end
