@@ -68,6 +68,7 @@ classdef WithVariableColumnWidths < fx.graphics.Component
                 dataChangedListener,...
                 rowNameChangedListener,...
                 ];
+            this.onDataChanged();
         end
         
     end
