@@ -1,0 +1,11 @@
+{
+    "test": {
+        "suites": {
+            "all": "fx.graphics.test",
+            "unittest": "fx.graphics.test.unittest"
+        },
+        "root": "test"
+    },
+    "parent_package": "fx",
+    "short_name": "fxgraphics"
+}
