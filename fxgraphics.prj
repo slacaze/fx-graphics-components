@@ -28,6 +28,7 @@
     <unset>
       <param.email />
       <param.company />
+      <param.summary />
       <param.description />
       <param.screenshot />
       <param.output />
