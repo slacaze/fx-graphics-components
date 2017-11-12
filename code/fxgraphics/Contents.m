@@ -1,6 +1,6 @@
-% FXGRAPHICS
-% Version 1.0.0 (R2017b) 05-Nov-2017
+% Fx Graphics Components Toolbox
+% Version 1.0.0 (R2017b) 12-Nov-2017
 %
 % Files
-%   fxgraphicsroot - Root of the MATLAB Custom Graphics Components Toolbox
+%   fxgraphicsroot - Root of the Fx Graphics Components Toolbox
 %   enhance        - Enhance a MALTAB native graphics object
