@@ -1,6 +1,6 @@
 function rmsandbox()
-    if ~isempty( ver( 'mcam' ) )
-        fx.mcam.command.rmsandbox();
+    if ~isempty( ver( 'fcam' ) )
+        fx.fcam.command.rmsandbox();
     else
         thisPath = fileparts( mfilename( 'fullpath' ) );
         rmpath( fullfile(...
@@ -10,8 +10,5 @@ function rmsandbox()
         rmpath( fullfile(...
             thisPath,...
             'test' ) );
-        rmpath( fullfile(...
-            thisPath,...
-            'demo' ) );
     end
 end
